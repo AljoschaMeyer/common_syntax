@@ -2,6 +2,8 @@
 
 A collection of common sytax elements for computer languages, such as identifiers, integer literals, floating-point literals, string literals and so on. These definitions are placed in the public domain and are intended to be used in different computer languages.
 
+**status: work in progress**
+
 All input text should be valid UTF-8.
 
 ## Whitespace
@@ -76,18 +78,18 @@ An **integer byte string literal** is a comma-separated (`,`) list of bytes, enc
 
 ### Hexadecimal Byte String Literal
 
-A **hexadecimal byte string literal** begins with `@x[`, followed by an even number of hexadecimal digits (`0 - 9`, `A-F`, and `a-f`), followed by `]`. Every digit may be followed by an arbitrary number of underscores (`_`), which are ignored when decoding.
+A **hexadecimal byte string literal** begins with `@x, followed by an even number of hexadecimal digits (`0 - 9`, `A-F`, and `a-f`). Every digit may be followed by an arbitrary number of underscores (`_`), which are ignored when decoding.
 
 ```
-@x[4A2____b]
+@x4A2____b
 ```
 
 ### Binary Byte String Literal
 
-A **binary byte string literal** begins with `@b[`, followed by an even number of binary digits (`0` or `1`), followed by `]`. Every digit may be followed by an arbitrary number of underscores (`_`), which are ignored when decoding.
+A **binary byte string literal** begins with `@b`, followed by an even number of binary digits (`0` or `1`). Every digit may be followed by an arbitrary number of underscores (`_`), which are ignored when decoding.
 
 ```
-@x[1010_0001__11111111]
+@x1010_0001__11111111
 ```
 
 ## UTF-8 String

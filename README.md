@@ -78,7 +78,7 @@ An **integer byte string literal** is a comma-separated (`,`) list of bytes, enc
 
 ### Hexadecimal Byte String Literal
 
-A **hexadecimal byte string literal** begins with `@x, followed by an even number of hexadecimal digits (`0 - 9`, `A-F`, and `a-f`). Every digit may be followed by an arbitrary number of underscores (`_`), which are ignored when decoding.
+A **hexadecimal byte string literal** begins with `@x`, followed by an even number of hexadecimal digits (`0 - 9`, `A-F`, and `a-f`). Every digit may be followed by an arbitrary number of underscores (`_`), which are ignored when decoding.
 
 ```
 @x4A2____b

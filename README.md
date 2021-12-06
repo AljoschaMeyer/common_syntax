@@ -72,7 +72,7 @@ An **integer byte string literal** is a comma-separated (`,`) list of bytes, enc
 ```
 @[0, 128, 64]
 @[
-    243, 0b1_0,0xff_  ]
+    243 , 0b1_0,0xff_  ]
 @[,]
 ```
 
@@ -107,7 +107,7 @@ Each [unicode scalar](http://www.unicode.org/glossary/#unicode_scalar_value) can
 - `\t` for the character `horizontal tab` (`0x09`)
 - `\n` for the character `new line` (`0x0a`)
 - `\0` for the character `null` (`0x00`)
-- `\{DIGITS}`, where `DIGITS` is the ASCII decimal representation of any scalar value. `DIGITS` must consist of one to six characters.
+- `\{DIGITS}`, where `DIGITS` is the ASCII hexadecimal digit (`0 - 9`, `A-F`, and `a-f`) representation of any scalar value. `DIGITS` must consist of one to six characters.
 
 Unicode code points that are not unicode scalar values are disallowed, even when they form valid surrogate pairs.
 

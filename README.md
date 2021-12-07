@@ -2,7 +2,7 @@
 
 A collection of common sytax elements for computer languages, such as identifiers, integer literals, floating-point literals, string literals and so on. These definitions are placed in the public domain and are intended to be used in different computer languages.
 
-**Status: stable. More syntax may still be added, slip out the existing ones will not be changed.**
+**Status: stable. More syntax elements may still be added, but the existing ones will not be changed.**
 
 All input text should be valid UTF-8.
 

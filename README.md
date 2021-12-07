@@ -1,8 +1,8 @@
-# Generic Syntax
+# Common Syntax
 
 A collection of common sytax elements for computer languages, such as identifiers, integer literals, floating-point literals, string literals and so on. These definitions are placed in the public domain and are intended to be used in different computer languages.
 
-**status: work in progress**
+**Status: stable. More syntax may still be added, slip out the existing ones will not be changed.**
 
 All input text should be valid UTF-8.
 
@@ -125,10 +125,13 @@ A **raw UTF-8 string literal** begins with one to 255 `@`, followed by `"`, foll
 Sequences of @@@ are also okay."@@@
 ```
 
+<!--
+Not yet part of the specification, might still change.
+
 ## Name
 
 A **name** consists of one to `2^63 - 1` characters from the following ranges: `0-9`, `A-Z`, `a-z`, `_`. The first character of a *name* must not be a decimal digit.
 
 ## Identifier
 
-An **identifier** consists of one to `2^63 - 1` *names*, with two colons (`::`) between any two of them, e.g., `foo`, `foo::bar`, `foo::bar::baz`, and so on. Every *name* is also an *identifier*.
+An **identifier** consists of one to `2^63 - 1` *names*, with two colons (`::`) between any two of them, e.g., `foo`, `foo::bar`, `foo::bar::baz`, and so on. Every *name* is also an *identifier*. -->

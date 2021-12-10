@@ -89,7 +89,7 @@ A **hexadecimal byte string literal** begins with `@x`, followed by an even numb
 A **binary byte string literal** begins with `@b`, followed by an even number of binary digits (`0` or `1`). Every digit may be followed by an arbitrary number of underscores (`_`), which are ignored when decoding.
 
 ```
-@x1010_0001__11111111
+@b1010_0001__11111111
 ```
 
 ## UTF-8 String
